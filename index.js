@@ -1,5 +1,3 @@
-var sounds = [];
-
 for(var x = 0; x < document.getElementsByClassName('drum').length; x++){
   var index = x;
   document.getElementsByClassName('drum')[x].addEventListener("click", function(){
