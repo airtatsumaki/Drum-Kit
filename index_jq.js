@@ -9,8 +9,8 @@ jQuery(document).keydown(function(event){
       playSound(jQuery(this));
       buttonAnimation(jQuery(this));
     }
-  })
-})
+  });
+});
 
 function playSound(drumObj){
   var audio = new Audio("sounds/" + drumObj.attr('id') + ".mp3");
