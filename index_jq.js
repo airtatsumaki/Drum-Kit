@@ -1,5 +1,4 @@
 jQuery('.drum').click(function(){
-  console.log("clicked")
   playSound(jQuery(this));
   buttonAnimation(jQuery(this));
 });
